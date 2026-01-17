@@ -1,5 +1,4 @@
 from fastapi import APIRouter
-from fastapi.responses import JSONResponse
 from logic.logic import DomainError, getAvailableClasses, makeRequest
 from pydantic import BaseModel
 
@@ -13,7 +12,7 @@ class InputData(BaseModel):
 
 @router.get("/classes")
 def returnClasses():
-    return JSONResponse(content=getAvailableClasses())
+    return {"result": getAvailableClasses()}
 
 @router.get("/plan")
 def returnPlan(data: InputData):
