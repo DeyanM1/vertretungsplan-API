@@ -35,16 +35,16 @@ docker compose down
 
 ### Accessing the API
 
-By default, the FastAPI app runs on port `8000`. You can access it at:
+By default, the FastAPI app runs on port `9090`. You can access it at:
 
 ```
-http://localhost:8000
+http://localhost:9090
 ```
 
 The automatic API documentation is available at:
 
 ```
-http://localhost:8000/docs
+http://localhost:9090/docs
 ```
 
 ## API Endpoints

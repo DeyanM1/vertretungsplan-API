@@ -3,5 +3,5 @@ services:
     container_name: vertretungsplan-API
     build: .
     ports: 
-      - "8000:80"
+      - "9090:80"
     restart: unless-stopped
