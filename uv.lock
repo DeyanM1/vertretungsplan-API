@@ -754,7 +754,7 @@ wheels = [
 ]
 
 [[package]]
-name = "vertretungsplan"
+name = "vertretungsplan-api"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
